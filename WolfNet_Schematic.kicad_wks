@@ -38,8 +38,6 @@
   (line (name "") (start 26 8.5) (end 26 2))
   (tbtext "${COMMENT5}" (name "") (pos 108.989 29.0022))
   (tbtext "${COMMENT6}" (name "") (pos 108.989 32.002))
-  (tbtext "Text" (name "") (pos 0 0))
-  (tbtext "Text" (name "") (pos 0 0))
   (bitmap (name "") (pos 28.989 58.4022) (scale 1)
   (pngdata
     (data "89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 90 00 00 01 90 08 06 00 00 00 80 BF 36 ")
