@@ -931,7 +931,7 @@
     (symbol "WD65C02_0_1"
       (rectangle (start -8.89 25.4) (end 8.89 -26.67)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
+        (fill (type none))
       )
     )
     (symbol "WD65C02_1_1"
@@ -1477,7 +1477,7 @@
     (symbol "WD65C22_0_1"
       (rectangle (start -8.89 25.4) (end 8.89 -26.67)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
+        (fill (type none))
       )
     )
     (symbol "WD65C22_1_1"
@@ -1659,7 +1659,7 @@
     (symbol "WD65C816S_0_1"
       (rectangle (start -8.89 25.4) (end 8.89 -26.67)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
+        (fill (type none))
       )
     )
     (symbol "WD65C816S_1_1"

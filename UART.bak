@@ -15,7 +15,7 @@
     (symbol "SC28L91_0_1"
       (rectangle (start -13.97 -1.27) (end 13.97 -54.61)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "SC28L91_1_1"
@@ -24,7 +24,7 @@
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -16.51 -25.4 0) (length 2.54)
-        (name "RDN" (effects (font (size 1.27 1.27))))
+        (name "~{RD}" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at -1.27 1.27 270) (length 2.54)
@@ -192,7 +192,7 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -16.51 -22.86 0) (length 2.54)
-        (name "WRN" (effects (font (size 1.27 1.27))))
+        (name "~{WR}" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )

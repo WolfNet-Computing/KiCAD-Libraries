@@ -15,7 +15,7 @@
     (symbol "DS1813_0_1"
       (rectangle (start -5.08 -1.27) (end 5.08 -11.43)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "DS1813_1_1"
