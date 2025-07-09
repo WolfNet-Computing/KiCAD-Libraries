@@ -1,7 +1,7 @@
 (footprint "USB-A-PCB_EDGE"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PCB-EDGE USB A CONNECTOR.")
 	(tags "PCB-EDGE USB A CONNECTOR.")
@@ -24,18 +24,6 @@
 			(font
 				(size 0.4064 0.4064)
 				(thickness 0.0254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8f7d64fa-6aae-4238-9278-cc4263ce53e6")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -104,19 +92,8 @@
 		(layer "Edge.Cuts")
 		(uuid "bc070729-5bcc-4dc0-a7b2-c7f08818534c")
 	)
-	(fp_text user "PCB edge"
-		(at -6.858 -0.762 90)
-		(layer "B.SilkS")
-		(uuid "d0b5f653-56ef-4b7c-bb93-57f51d60f970")
-		(effects
-			(font
-				(size 1.016 1.016)
-				(thickness 0.0762)
-			)
-		)
-	)
 	(fp_text user "USB Push Limit"
-		(at 3.81 -3.048 -90)
+		(at 3.81 -3.048 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b45e9433-133e-4f9b-acd2-a13362130eb7")
@@ -128,6 +105,17 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "PCB edge"
+		(at -6.858 -0.762 90)
+		(layer "B.SilkS")
+		(uuid "d0b5f653-56ef-4b7c-bb93-57f51d60f970")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.0762)
+			)
+		)
+	)
 	(pad "1" connect rect
 		(at -0.19812 3.49758)
 		(size 7.49808 1.4986)
@@ -137,7 +125,7 @@
 			(max_length 1)
 			(best_width_ratio 1)
 			(max_width 2)
-			(curve_points 0)
+			(curved_edges no)
 			(filter_ratio 0.9)
 			(enabled yes)
 			(allow_two_segments yes)
@@ -154,7 +142,7 @@
 			(max_length 1)
 			(best_width_ratio 1)
 			(max_width 2)
-			(curve_points 0)
+			(curved_edges no)
 			(filter_ratio 0.9)
 			(enabled yes)
 			(allow_two_segments yes)
@@ -171,7 +159,7 @@
 			(max_length 1)
 			(best_width_ratio 1)
 			(max_width 2)
-			(curve_points 0)
+			(curved_edges no)
 			(filter_ratio 0.9)
 			(enabled yes)
 			(allow_two_segments yes)
@@ -182,13 +170,13 @@
 	(pad "4" smd rect
 		(at -0.19812 -3.49758)
 		(size 7.49808 1.4986)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
 			(best_width_ratio 1)
 			(max_width 2)
-			(curve_points 0)
+			(curved_edges no)
 			(filter_ratio 0.9)
 			(enabled yes)
 			(allow_two_segments yes)
@@ -196,4 +184,5 @@
 		)
 		(uuid "26a6f252-5288-4eba-a8ff-95da5a8d965e")
 	)
+	(embedded_fonts no)
 )
